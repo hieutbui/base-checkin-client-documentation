@@ -1,10 +1,10 @@
-# User Manual for Base Check-in Client
+# Hello
 
 Welcome to the official user manual for the Base Check-in Client. This guide will help you understand and effectively use the features of the application.
 
 ## Table of Contents
 
-- [User Manual for Base Check-in Client](#user-manual-for-base-check-in-client)
+- [Hello](#hello)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Installation](#installation)

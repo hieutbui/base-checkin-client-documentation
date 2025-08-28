@@ -1,6 +1,21 @@
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-- jekyll-remote-theme
+theme: just-the-docs
 
 title: Tài liệu sử dụng Base Checkin-in Client
 description: Hướng dẫn sử dụng, các thông tin cần biết khi sử dụng Base Checkin-in Client
+
+logo: "/assets/logo.png"
+favicon_ico: "/assets/favicon.ico"
+
+search_enabled: true
+search:
+  rel_url: true
+  button: true
+
+aux_links:
+  "Base.vn":
+    - "https://base.vn/"
+aux_links_new_tab: true
+
+nav_enabled: true
+
+header_anchors: true
