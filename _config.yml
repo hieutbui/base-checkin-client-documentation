@@ -1,7 +1,7 @@
 title: Tài liệu sử dụng Base Checkin-in Client
 description: Hướng dẫn sử dụng, các thông tin cần biết khi sử dụng Base Checkin-in Client
 
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 logo: "/assets/logo.png"
 favicon_ico: "/assets/favicon.ico"

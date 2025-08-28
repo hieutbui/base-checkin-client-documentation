@@ -1,5 +1,6 @@
 # The source where Bundler will look for gems
 source "https://rubygems.org"
 
-# Removed github-pages gem to avoid conflicts with just-the-docs
+# The gem from your instructions, which installs all GitHub Pages dependencies
+gem "github-pages", group: :jekyll_plugins
 gem "just-the-docs"
