@@ -23,6 +23,12 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: 21
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.2
+      - name: Install Bundler
+        run: gem install bundler
       - name: Build with Jekyll
         env:
           JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
