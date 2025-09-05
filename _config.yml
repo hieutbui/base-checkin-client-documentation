@@ -14,6 +14,8 @@ search:
 aux_links:
   "Base.vn":
     - "https://base.vn/"
+  "Documentation on GitHub":
+    - "https://github.com/hieutbui/base-checkin-client-documentation"
 aux_links_new_tab: true
 
 nav_enabled: true
