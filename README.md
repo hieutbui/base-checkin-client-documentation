@@ -1,3 +1,7 @@
+---
+nav_exclude: true
+---
+
 # Hello
 
 Welcome to the official user manual for the Base Check-in Client. This guide will help you understand and effectively use the features of the application.
