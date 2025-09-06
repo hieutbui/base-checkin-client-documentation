@@ -1,3 +1,7 @@
+---
+nav_order: 2
+---
+
 # Thiết bị
 
 ## Danh sách thiết bị kết nối thành công với Base Checkin Client

@@ -1,3 +1,7 @@
+---
+nav_order: 3
+---
+
 # Các chức năng chính
 
 ## Thanh chức năng phía trên
