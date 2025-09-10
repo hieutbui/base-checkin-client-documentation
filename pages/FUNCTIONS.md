@@ -45,6 +45,6 @@ Dưới đây là mô tả chi tiết về các chức năng:
 
 Khi nhấn vào nút `Thêm thiết bị`, một cửa sổ sẽ hiện ra để nhập thông tin thiết bị mới. Các trường thông tin sẽ tuỳ thuộc vào loại kết nối được lựa chọn - tham khảo phần [Các loại kết nối](/pages/connections/CONNECTIONS_OVERVIEW) -  
 
-Phần thông tin `HRM clients`, cần nhập mã client và mật khẩu của mã trong phần cài đặt văn phòng trên hệ thống HRM.
+Phần thông tin `HRM clients`, cần nhập mã client và mật khẩu của mã trong phần cài đặt văn phòng trên hệ thống HRM. Nếu có nhiều văn phòng nhưng dùng chung 1 nguồn chấm công → Thêm nhiều HRM clients.
 
 <img src="{{site.baseurl}}/assets/images/get_hrm_client.png" alt="Phần HRM clients trên hệ thống HRM" class="doc-image">
