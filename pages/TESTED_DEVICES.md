@@ -1,4 +1,5 @@
 ---
+title: Thiết bị
 nav_order: 3
 ---
 

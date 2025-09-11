@@ -1,6 +1,16 @@
 ---
+title: Các chức năng chính
 nav_order: 4
 ---
+
+<details open markdown="block">
+  <summary>
+    Mục lục
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 # Các chức năng chính
 
@@ -48,3 +58,69 @@ Khi nhấn vào nút `Thêm thiết bị`, một cửa sổ sẽ hiện ra để
 Phần thông tin `HRM clients`, cần nhập mã client và mật khẩu của mã trong phần cài đặt văn phòng trên hệ thống HRM. Nếu có nhiều văn phòng nhưng dùng chung 1 nguồn chấm công → Thêm nhiều HRM clients.
 
 <img src="{{site.baseurl}}/assets/images/get_hrm_client.png" alt="Phần HRM clients trên hệ thống HRM" class="doc-image">
+
+## Chức năng chỉnh sửa thiết bị
+
+<img src="{{site.baseurl}}/assets/images/device_setting.png" alt="Nút chỉnh sửa thiết bị">
+
+Phần chỉnh sửa thiết bị sẽ thay đổi ứng với từng loại kết nối.
+
+### Access Directly
+
+<img src="{{site.baseurl}}/assets/images/setting_device_access_directly.png" alt="Chỉnh sửa thiết bị Access Directly" class="doc-image">
+
+### Zk Bio Security / Zk Bio Access
+
+<img src="{{site.baseurl}}/assets/images/setting_device_zkbiosecurity.png" alt="Chỉnh sửa thiết bị Zk Bio Security / Zk Bio Access" class="doc-image">
+
+### BioStar 2
+
+<img src="{{site.baseurl}}/assets/images/setting_device_biostar2.png" alt="Chỉnh sửa thiết bị BioStar 2" class="doc-image">
+
+### HIK Vision
+
+<img src="{{site.baseurl}}/assets/images/setting_device_hikvision.png" alt="Chỉnh sửa thiết bị HIK Vision" class="doc-image">
+
+### Hanet AI
+
+<img src="{{site.baseurl}}/assets/images/setting_device_hanet_ai.png" alt="Chỉnh sửa thiết bị Hanet AI" class="doc-image">
+
+### Idemia
+
+<img src="{{site.baseurl}}/assets/images/setting_device_idemia.png" alt="Chỉnh sửa thiết bị Idemia" class="doc-image">
+
+### Sunbeam
+
+<img src="{{site.baseurl}}/assets/images/setting_device_sunbeam.png" alt="Chỉnh sửa thiết bị Sunbeam" class="doc-image">
+
+### SQL Server
+
+<img src="{{site.baseurl}}/assets/images/setting_device_sql_server.png" alt="Chỉnh sửa thiết bị SQL Server" class="doc-image">
+
+### ZK 5xxx
+
+<img src="{{site.baseurl}}/assets/images/setting_device_zk_5xxx.png" alt="Chỉnh sửa thiết bị ZK 5xxx" class="doc-image">
+
+### Nuveq
+
+<img src="{{site.baseurl}}/assets/images/setting_device_nuveq.png" alt="Chỉnh sửa thiết bị Nuveq" class="doc-image">
+
+### Dahahi
+
+<img src="{{site.baseurl}}/assets/images/setting_device_dahahi.png" alt="Chỉnh sửa thiết bị Dahahi" class="doc-image">
+
+### My Time Cloud
+
+<img src="{{site.baseurl}}/assets/images/setting_device_mytime_cloud.png" alt="Chỉnh sửa thiết bị My Time Cloud" class="doc-image">
+
+### Soyal
+
+<img src="{{site.baseurl}}/assets/images/setting_device_soyal.png" alt="Chỉnh sửa thiết bị Soyal" class="doc-image">
+
+### Dahua
+
+<img src="{{site.baseurl}}/assets/images/setting_device_dahua.png" alt="Chỉnh sửa thiết bị Dahua" class="doc-image">
+
+### ZK BioTime 8 & 9
+
+<img src="{{site.baseurl}}/assets/images/setting_device_zkbiotime.png" alt="Chỉnh sửa thiết bị ZK BioTime 8 & 9" class="doc-image">

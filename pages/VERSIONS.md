@@ -1,6 +1,16 @@
 ---
+title: Phiên bản
 nav_order: 2
 ---
+
+<details open markdown="block">
+  <summary>
+    Mục lục
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 # Phiên bản
 
