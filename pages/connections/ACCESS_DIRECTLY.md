@@ -4,6 +4,15 @@ parent: Các loại kết nối
 nav_order: 1
 ---
 
+<details open markdown="block">
+  <summary>
+    Mục lục
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
 # Access Directly
 
 > ⚠️ **Lưu ý:** Trên thị trường hiện nay có rất nhiều loại máy chấm công của các hãng khác nhau, Check-in Client hiện chưa thể tích hợp được tất cả các máy chấm công.  
@@ -26,7 +35,7 @@ Base Check-in Client sẽ kết nối trực tiếp đến địa chỉ IP và P
 
 Các phương thức giải mã Pyatt, Large Dataset và Legacy có logic xử lý tương tự nhau. Riêng phương thức Pyatt cho phép nhập mật khẩu của thiết bị.
 
-Phương thức FP_CLOCK & FP_CLOCK_2018 sử dụng cho các máy chấm công có port kết nối mặc định là 5005, thường do Mitaco phát hành. Với phương thức này, cần nhập các thông tin sau: IP, port, machine number và mật khẩu - Các thông tin này có trong phần mềm MitaPro được Mitaco cung cấp
+Phương thức FP_CLOCK & FP_CLOCK_2018 sử dụng cho các máy chấm công có port kết nối mặc định là `5005`, thường do Mitaco phát hành. Với phương thức này, cần nhập các thông tin sau: IP, port, machine number và mật khẩu - Các thông tin này có trong phần mềm MitaPro được Mitaco cung cấp
 
 Tham khảo tài liệu đặc tả về các phương thức giải mã tại:
 
@@ -46,6 +55,45 @@ Một số tuỳ chỉnh cho loại kết nối `Access Directly`:
 - `Tự kết nối lại`: Tần suất mà Check-in Client tự kết nối lại với máy chấm công nếu bị mất kết nối. <i>Nếu máy chấm công đời cũ hoặc yếu, nên chọn thời gian lớn hơn</i>
 
 ## Kiểm tra kết nối máy chấm công
+
+- Nếu đang sử dụng phần mềm quản lý máy chấm công được nhà phân phối cung cấp, đảm bảo phần mềm có thể kết nối và đồng bộ được dữ liệu chấm công.
+- Mở **Window PowerShell/Terminal/Command Prompt** bằng quyền **Admin (Run as administrator)**.
+- Bật tính năng telnet của Window: `dism /online /Enable-Feature /FeatureName:TelnetClient`.
+- Kiểm tra kết nối giữa máy tính cài Base Check-in Client và máy chấm công: **ping ip_máy_chấm_công**.
+- Kiểm có thể truy cập vào port của máy chấm công từ bên ngoài không: **telnet ip_máy_chấm công port_máy_chấm_công**.
+
+<figure>
+  <img src="{{site.baseurl}}/assets/images/ping_success.png" alt="Ping Success">
+  <figcaption>Ví dụ kết quả ping thành công</figcaption>
+</figure>
+
+<br/>
+
+<figure>
+  <img src="{{site.baseurl}}/assets/images/ping_failure.png" alt="Ping Failure">
+  <figcaption>Ví dụ kết quả ping không thành công</figcaption>
+</figure>
+
+<br/>
+
+<figure>
+  <img src="{{site.baseurl}}/assets/images/telnet_not_recognized.png" alt="Telnet Not Recognized">
+  <figcaption>Ví dụ telnet chưa được bật</figcaption>
+</figure>
+
+<br/>
+
+<figure>
+  <img src="{{site.baseurl}}/assets/images/telnet_failed.png" alt="Telnet Failed">
+  <figcaption>Ví dụ telnet không thành công</figcaption>
+</figure>
+
+<br/>
+
+<figure>
+  <img src="{{site.baseurl}}/assets/images/telnet_success.png" alt="Telnet Success">
+  <figcaption>Ví dụ telnet thành công</figcaption>
+</figure>
 
 ## Web Interface
 
