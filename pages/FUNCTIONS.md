@@ -14,6 +14,10 @@ nav_order: 4
 
 # Các chức năng chính
 
+## Cơ chế tự Reload:
+
+Sau mỗi 24h, Base Check-in client sẽ tự reload lại để tạo ra một phiên hoạt động mới nhằm giải phóng tài nguyên cho máy tính, từ đó đảm bảo phần mềm luôn hoạt động mượt mà và hạn chế xảy ra lỗi.
+
 ## Thanh chức năng phía trên
 
 <img src="{{site.baseurl}}/assets/images/functions_at_top.png" alt="Thanh chức năng phía trên" class="doc-image">

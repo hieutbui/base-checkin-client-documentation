@@ -25,6 +25,8 @@ nav_order: 1
 
 ## Mô tả
 
+<img src="{{site.baseurl}}/assets/images/access_directly_flow.png" alt="Access Directly Flow">
+
 Base Check-in Client sẽ kết nối trực tiếp đến địa chỉ IP và Port của máy chấm công để gửi lệnh lấy dữ liệu thông qua các `Phương thức giải mã`:
 - Pyatt
 - Zkemkeeper
