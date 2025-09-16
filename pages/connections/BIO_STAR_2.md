@@ -19,4 +19,6 @@ nav_order: 3
 ## Mô tả
 
 - Chỉ được thêm một hệ thống (Một hệ thống sẽ bao gồm tất cả thiết bị chấm công thuộc hệ thống đó)
-- Ở lần đầu tiên khi connect đến 1 thiết bị, phần mềm sẽ đồng bộ toàn bộ dữ liệu trong vòng 30 ngày gần nhất. Khi đồng bộ xong phần mềm sẽ check theo cơ chế 1 phút sẽ kiểm tra lại lịch sử log một lần và đồng bộ dữ liệu mới nhất.
+- Ở lần đầu tiên khi connect đến 1 thiết bị, phần mềm sẽ đồng bộ toàn bộ dữ liệu trong vòng 30 ngày gần nhất. Sau lần đồng bộ đầu tiên, phần mềm sẽ tự đồng bộ mỗi phút 1 lần. Các log được đồng bộ sẽ trong khoảng: Thời gian của log cuối cùng từ lần đồng bộ trước → thời điểm thực hiện đồng bộ.
+- Để đồng bộ các log trong khoảng thời gian khác hãy chọn lại `Thời gian đồng bộ từ` trong phần [Chỉnh sửa thiết bị](../FUNCTIONS#chức-năng-chỉnh-sửa-thiết-bị).
+<img src="{{site.baseurl}}/assets/images/sync_from.png" alt="ZK Bio Security Sync Time">
