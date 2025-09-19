@@ -4,6 +4,15 @@ parent: Các loại kết nối
 nav_order: 13
 ---
 
+<details open markdown="block">
+  <summary>
+    Mục lục
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
 # Soyal
 
 ## Mô tả
