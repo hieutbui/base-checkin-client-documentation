@@ -1,5 +1,5 @@
 ---
-title: Sunbeam/MyTime Cloud
+title: Sunbeam / MyTime Cloud
 parent: Các loại kết nối
 nav_order: 7
 ---
@@ -13,7 +13,7 @@ nav_order: 7
 {:toc}
 </details>
 
-# Sunbeam/MyTime Cloud
+# Sunbeam / MyTime Cloud
 
 > ⚠️ **Lưu ý:** Trên thị trường hiện nay có rất nhiều loại máy chấm công của các hãng khác nhau, Check-in Client hiện chưa thể tích hợp được tất cả các máy chấm công.  
 > 

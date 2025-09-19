@@ -40,6 +40,8 @@ nav_order: 4
 
 <img src="{{site.baseurl}}/assets/images/hik_web_ip.jpeg" alt="HIK Vision Admin Page">
 
+<img src="{{site.baseurl}}/assets/images/hik_vision_admin_new_version.png" alt="HIK Vision Admin Page">
+
 - ***Lấy thông tin cổng kết nối***: Truy cập trang quản lý máy chấm công trên trình duyệt bằng địa chỉ IP máy chấm công -> Vào phần Cài đặt mạng -> Cài đặt nâng cao cổng kết nối. Để ý giá trị cổng kết nối cho 2 loại giao thức mạng HTTP và HTTPS. Mặc định, giá trị này là 80 cho HTTP và 443 cho HTTPS. Nếu có thay đổi thì cần nhập đúng giá trị này vào phần cài đặt của Base Check-in Client.
 - Nếu sử dụng giá trị cổng kết nối tương ứng với giao thức HTTPS, lưu ý chọn `Sử dụng HTTPS`.
 
@@ -52,6 +54,9 @@ nav_order: 4
 
 - Sau khi kết nối lần đầu tiên, ứng dụng sẽ tự động chạy đồng bộ dữ liệu trong 3 ngày gần nhất.
 - Để đồng bộ các log trong khoảng thời gian khác hãy chọn lại `Thời gian đồng bộ từ` trong phần [Chỉnh sửa thiết bị](../FUNCTIONS#chức-năng-chỉnh-sửa-thiết-bị).
+- Khi thay đổi thời gian bắt đầu đồng bộ, vui lòng thực hiện theo các bước sau: `Tạm dừng đồng bộ` -> `Thay đổi thời gian đồng bộ` -> `Đồng bộ bản ghi`.
+
+<img src="{{site.baseurl}}/assets/images/hik_vision_change_sync_from.png" alt="HIK Vision Device Change Sync From">
 
 <img src="{{site.baseurl}}/assets/images/sync_from.png" alt="ZK Bio Security Sync Time">
 
