@@ -6,7 +6,7 @@ body:
   - type: checkboxes
     attributes:
       label: Is there an existing issue for this?
-      description: Ensure that you have searched the [existing issues](https://github.com/linagora/twake-on-matrix/issues).
+      description: Ensure that you have searched the existing issues.
       options:
         - label: I have searched the existing issues
           required: true
