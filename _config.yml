@@ -28,3 +28,14 @@ footer_content: 'Copyright &copy; 2025 <a href="https://github.com/hieutbui" tar
 
 back_to_top: true
 back_to_top_text: "Lên đầu trang"
+
+exclude:
+  [
+    "README.md",
+    "LICENSE",
+    "CONTRIBUTING.md",
+    "CODE_OF_CONDUCT.md",
+    "CHANGELOG.md",
+    "README",
+    "SECURITY.md"
+  ]
