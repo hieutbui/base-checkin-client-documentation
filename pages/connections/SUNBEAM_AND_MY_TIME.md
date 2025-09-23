@@ -25,6 +25,7 @@ nav_order: 7
 
 - Phần mềm SunBeam bản chất là phần mềm MyTime nhưng được tuỳ chỉnh lại.
 - Phần mềm Base Check-in Client sẽ lấy dữ liệu MCC thông qua phần mềm SunBeam/MyTime chứ không kết nối trực tiếp tới MCC.
+- Tham khảo tài liệu hướng dẫn sử dụng phần mềm MyTime: <a href="{{site.baseurl}}/assets/documents/HƯỚNG DẪN SỬ DỤNG PHẦN MỀM CHẤM CÔNG MYTIME Ver1.1.pdf" target="_blank">MyTime User Manual</a>
 
 ## Các dữ liệu cần thiết để kết nối
 - Máy tính đã cài đặt phần mềm SunBeam/MyTime và đảm bảo phần mềm Sunbeam/MyTime có thể kết nối và lấy dữ liệu chấm công từ máy chấm công.

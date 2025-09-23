@@ -15,6 +15,12 @@ nav_order: 8
 
 # SQL Server
 
+> ⚠️ **Lưu ý:** Trên thị trường hiện nay có rất nhiều loại máy chấm công của các hãng khác nhau, Check-in Client hiện chưa thể tích hợp được tất cả các máy chấm công.  
+> 
+> Để lựa chọn phương thức giải mã phù hợp, tham khảo thông tin danh sách các thiết bị đã kết nối thành công với Base Check-in Client - [Danh sách thiết bị đã kết nối](../TESTED_DEVICES).
+> 
+> Với các thiết bị không có trong danh sách, cần thử qua các loại phương thức và độ dài mã hoá để biết được thiết lập chính xác.
+
 ## Mô tả
 
 - Phần lớn các phần mềm quản lý máy chấm công như RonalJackPro, SunBeam, MyTime, MitaPro, WiseEye, etc. khi hoạt động sẽ tạo cơ sở dữ liệu sử dụng SQL Server hoặc Microsoft Access.

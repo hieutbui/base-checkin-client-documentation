@@ -37,7 +37,7 @@ Base Check-in Client sẽ kết nối trực tiếp đến địa chỉ IP và P
 
 Các phương thức giải mã Pyatt, Large Dataset và Legacy có logic xử lý tương tự nhau. Riêng phương thức Pyatt cho phép nhập mật khẩu của thiết bị.
 
-Phương thức FP_CLOCK & FP_CLOCK_2018 sử dụng cho các máy chấm công có port kết nối mặc định là `5005`, thường do Mitaco phát hành. Với phương thức này, cần nhập các thông tin sau: IP, port, machine number và mật khẩu - Các thông tin này có trong phần mềm MitaPro được Mitaco cung cấp
+Phương thức FP_CLOCK & FP_CLOCK_2018 sử dụng cho các máy chấm công có port kết nối mặc định là `5005`, thường do Mitaco phát hành. Với phương thức này, cần nhập các thông tin sau: IP, port, machine number và mật khẩu - Các thông tin này có trong phần mềm MitaPro được Mitaco cung cấp.
 
 Tham khảo tài liệu đặc tả về các phương thức giải mã tại:
 
@@ -47,18 +47,18 @@ Tham khảo tài liệu đặc tả về các phương thức giải mã tại:
 
 <img src="{{site.baseurl}}/assets/images/sync_method_access_directly.png" alt="Access Directly">
 
-Mỗi log được lưu trong máy chấm công là một dãy số thập lục phân, mỗi máy chấm công có quy định của dãy số này khác nhau, thường là: 40, 48 hoặc 49. Base Check-in Client sẽ sử dụng độ dài này để giải mã log chấm công nhận được từ máy chấm công.
+Mỗi log được lưu trong máy chấm công là một dãy số thập lục phân, mỗi máy chấm công có quy định độ dài của dãy số này khác nhau, thường là: 40, 48 hoặc 49. Base Check-in Client sẽ sử dụng độ dài này để giải mã log chấm công nhận được từ máy chấm công. Các đơn vị sản xuất máy chấm công không công khai độ dài của dãy dữ liệu này nên khi thực hiện kết nối, cần thử các giá trị và kiểm tra xem log đồng bộ được có đúng và đủ như trong phần mềm được bên bán cung cấp hay không và chỉnh sửa lại.
 
 <img src="{{site.baseurl}}/assets/images/encode_length.png" alt="Encoding Length">
 
 Một số tuỳ chỉnh cho loại kết nối `Access Directly`:
-- `Giao thức kết nối`: TCP hoặc UDP - Loại giao thức sử dụng để gửi lệnh lấy dữ liệu đến máy chấm công. Thường sử dụng TCP
-- `Heart beat`: Tần suất tự kiểm tra kết nối giữa Base Check-in Client và máy chấm công xem có còn đang kết nối hay không. <i>Nếu là máy chấm công đời cũ, hoặc máy yếu, nên chọn thời gian lớn hơn </i>
-- `Tự kết nối lại`: Tần suất mà Check-in Client tự kết nối lại với máy chấm công nếu bị mất kết nối. <i>Nếu máy chấm công đời cũ hoặc yếu, nên chọn thời gian lớn hơn</i>
+- `Giao thức kết nối`: TCP hoặc UDP - Loại giao thức sử dụng để gửi lệnh lấy dữ liệu đến máy chấm công. Thường sử dụng TCP.
+- `Heart beat`: Tần suất tự kiểm tra kết nối giữa Base Check-in Client và máy chấm công xem có còn đang kết nối hay không. <i>Nếu là máy chấm công đời cũ, hoặc máy yếu, nên chọn thời gian lớn hơn </i>.
+- `Tự kết nối lại`: Tần suất mà Check-in Client tự kết nối lại với máy chấm công nếu bị mất kết nối. <i>Nếu máy chấm công đời cũ hoặc yếu, nên chọn thời gian lớn hơn</i>.
 
 ## Kiểm tra kết nối máy chấm công
 
-- Nếu đang sử dụng phần mềm quản lý máy chấm công được nhà phân phối cung cấp, đảm bảo phần mềm có thể kết nối và đồng bộ được dữ liệu chấm công.
+- Sử dụng phần mềm quản lý máy chấm công được nhà phân phối cung cấp, đảm bảo phần mềm có thể kết nối và đồng bộ được dữ liệu chấm công.
 - Mở **Window PowerShell/Terminal/Command Prompt** bằng quyền **Admin (Run as administrator)**.
 - Bật tính năng telnet của Window: `dism /online /Enable-Feature /FeatureName:TelnetClient`.
 - Kiểm tra kết nối giữa máy tính cài Base Check-in Client và máy chấm công: **ping ip_máy_chấm_công**.

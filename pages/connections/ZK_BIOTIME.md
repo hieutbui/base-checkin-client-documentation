@@ -1,5 +1,5 @@
 ---
-title: ZK BioTime
+title: ZK BioTime 8 & 9
 parent: Các loại kết nối
 nav_order: 15
 ---
@@ -13,11 +13,17 @@ nav_order: 15
 {:toc}
 </details>
 
-# ZK BioTime
+# ZK BioTime 8 & 9
+
+> ⚠️ **Lưu ý:** Trên thị trường hiện nay có rất nhiều loại máy chấm công của các hãng khác nhau, Check-in Client hiện chưa thể tích hợp được tất cả các máy chấm công.  
+> 
+> Để lựa chọn phương thức giải mã phù hợp, tham khảo thông tin danh sách các thiết bị đã kết nối thành công với Base Check-in Client - [Danh sách thiết bị đã kết nối](../TESTED_DEVICES).
+> 
+> Với các thiết bị không có trong danh sách, cần thử qua các loại phương thức và độ dài mã hoá để biết được thiết lập chính xác.
 
 ## Mô tả
 
-- Các máy chấm công ZKTeco sẽ sử dụng phần mềm quản lý riêng dưới dạng web-based.
+- Các máy chấm công ZKTeco sẽ sử dụng phần mềm quản lý ***Zk Bio Time 8 & 9*** riêng dưới dạng web-based.
 - Base Checkin Client có khả năng kết nối đến phần mềm này và đọc dữ liệu chấm công thông qua ZK BioTime API do ZKTeco cung cấp.
 
 ## Hướng dẫn cài đặt
