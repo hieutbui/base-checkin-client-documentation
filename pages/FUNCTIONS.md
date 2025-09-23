@@ -43,7 +43,7 @@ Dưới đây là mô tả chi tiết về các chức năng:
 
 <img src="{{site.baseurl}}/assets/images/setting.png" alt="Trang thiết lập" class="doc-image">
 
-- **Xem trạng thái**: Xem tổng số log chấm công đã đồn bộ/đẩy trong một khoảng thời gian.
+- **Xem trạng thái**: Xem tổng số log chấm công đã đồng bộ/đẩy trong một khoảng thời gian.
 
 <img src="{{site.baseurl}}/assets/images/push_pull_history.png" alt="Trang trạng thái" class="doc-image">
 
