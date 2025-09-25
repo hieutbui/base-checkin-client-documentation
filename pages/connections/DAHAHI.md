@@ -29,7 +29,7 @@ nav_order: 11
 ## Hướng dẫn cài đặt
 
 - Liên hệ nhà cung cấp máy chấm công Dahahi để nhận địa chỉ SubDomain chính xác.
-- Truy cập vào SubDomain được cập để lấy các thông tin: `AppKey` và `SecretKey`.
+- Truy cập vào SubDomain được cấp hoặc liên hệ Dahahi để lấy các thông tin: `AppKey` và `SecretKey`. Nếu không tìm được `AppKey`, có thể thử giá trị sau: `k77hcPwEXB4LTdJv96mz`.
 
 <img src="{{site.baseurl}}/assets/images/dahahi_admin_page.png" alt="Dahahi Admin Page">
 
