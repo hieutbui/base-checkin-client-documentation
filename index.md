@@ -29,23 +29,3 @@ Use the navigation menu to explore the detailed documentation:
 - [Connection-specific configuration and integration guides](pages/connections/CONNECTIONS_OVERVIEW.md)
 
 The detailed technical documentation is currently provided in Vietnamese.
-
-
-# Tiếng Việt
-
-Tài liệu này cung cấp hướng dẫn sử dụng và thông tin kỹ thuật cho hệ thống Base Check-in Client. Nội dung bao gồm:
-
-- Tổng quan về các chức năng chính của hệ thống.
-- Danh sách các thiết bị đã được kiểm thử và hỗ trợ.
-- Hướng dẫn kết nối với các thiết bị chấm công, kiểm soát ra vào từ nhiều hãng khác nhau như Hanet AI, Hikvision, Dahua, ZKTeco, Soyal, Idemia, Sunbeam, Nuveq, BioStar, v.v.
-- Thông tin về các phiên bản phần mềm và cập nhật mới nhất.
-- Tài liệu tham khảo, hình ảnh minh họa, và các mẫu cấu hình.
-
-Bạn có thể truy cập các mục chi tiết ở thanh điều hướng bên trái hoặc theo các liên kết bên dưới:
-
-- [Chức năng hệ thống](pages/FUNCTIONS.md)
-- [Thiết bị đã kiểm thử](pages/TESTED_DEVICES.md)
-- [Phiên bản phần mềm](pages/VERSIONS.md)
-- [Hướng dẫn kết nối thiết bị](pages/connections/CONNECTIONS_OVERVIEW.md)
-
-Nếu có thắc mắc hoặc cần hỗ trợ, vui lòng liên hệ đội ngũ phát triển.
