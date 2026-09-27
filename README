@@ -1,11 +1,26 @@
-# Giới thiệu
+# Base Check-in Client — Technical Documentation
 
-Tài liệu này cung cấp hướng dẫn sử dụng và thông tin kỹ thuật cho hệ thống Base Check-in Client. Nội dung bao gồm:
+This documentation provides technical and operational information for Base Check-in Client, a client application for integrating attendance and access-control devices from multiple vendors.
 
-- Tổng quan về các chức năng chính của hệ thống.
-- Danh sách các thiết bị đã được kiểm thử và hỗ trợ.
-- Hướng dẫn kết nối với các thiết bị chấm công, kiểm soát ra vào từ nhiều hãng khác nhau như Hanet AI, Hikvision, Dahua, ZKTeco, Soyal, Idemia, Sunbeam, Nuveq, BioStar, v.v.
-- Thông tin về các phiên bản phần mềm và cập nhật mới nhất.
-- Tài liệu tham khảo, hình ảnh minh họa, và các mẫu cấu hình.
+## Scope of the documentation
 
-Nếu có thắc mắc hoặc cần hỗ trợ, vui lòng liên hệ đội ngũ phát triển.
+The documentation covers:
+
+- Core system functions and operating procedures.
+- Devices that have been successfully tested and connected.
+- Connection and integration methods for different device vendors and systems.
+- Software versions, release history, and special versions.
+- Configuration examples, technical references, and supporting materials.
+
+The system documentation covers integrations with multiple attendance and access-control platforms, including ZKTeco, Hikvision, BioStar, Hanet AI, Idemia, Sunbeam/MyTime, Nuveq, Dahua, Soyal, and others.
+
+## Documentation structure
+
+Use the navigation menu to explore the detailed documentation:
+
+- System functions
+- Tested devices
+- Software versions
+- Connection-specific configuration and integration guides
+
+The detailed technical documentation is currently provided in Vietnamese.
